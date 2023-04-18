@@ -251,7 +251,7 @@ Error generating stack: `+i.message+`
   @media (max-width: 390px) {
     text-align: center;
   }
-`,hE=()=>S.jsx(lE,{children:S.jsxs(aE,{children:[S.jsxs(sE,{children:[S.jsxs(fE,{children:["Find your",S.jsx("br",{})," Best cocktail"]}),S.jsx(dE,{children:"Find Your Best Cocktail"}),S.jsxs(pE,{children:["The most complete resourse for cocktail inspiration"," "]})]}),S.jsx(uE,{children:S.jsx(cE,{src:iE})})]})}),mE=D.div`
+`,hE=()=>S.jsx(lE,{children:S.jsxs(aE,{children:[S.jsxs(sE,{children:[S.jsxs(fE,{children:["mind your",S.jsx("br",{})," Best cocktail"]}),S.jsx(dE,{children:"Find Your Best Cocktail"}),S.jsxs(pE,{children:["The most complete resourse for cocktail inspiration"," "]})]}),S.jsx(uE,{children:S.jsx(cE,{src:iE})})]})}),mE=D.div`
   height: 80px;
   padding: 15px 60px 15px 40px;
   position: fixed;
