@@ -440,6 +440,11 @@ Error generating stack: `+i.message+`
   margin: 132px auto 0;
   display: flex;
   justify-content: center;
+
+  @media (max-width: 830px) {
+    flex-direction: column;
+    gap: 20px;
+  }
 `,J3=D.div`
   flex: 1;
   text-align: center;
@@ -584,6 +589,11 @@ Error generating stack: `+i.message+`
   margin: 132px auto 0;
   display: flex;
   justify-content: center;
+
+  @media (max-width: 830px) {
+    flex-direction: column;
+    gap: 20px;
+  }
 `,O5=D.div`
   flex: 1;
   text-align: center;
