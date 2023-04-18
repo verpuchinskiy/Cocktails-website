@@ -2,12 +2,13 @@ import React from "react";
 import styled from "styled-components";
 import { headerFont, orangeColor } from "../../variables";
 import HeroImage from "../assets/cocktails-hero.jpg";
+import BG from "../assets/bg.jpg";
 
 const Container = styled.div`
   margin-top: 112px;
   height: 70vh;
   background: linear-gradient(90deg, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.5)),
-    url("src/assets/bg.jpg") top center no-repeat;
+    url(${BG}) top center no-repeat;
   background-size: cover;
   display: flex;
   justify-content: center;
@@ -159,7 +160,7 @@ export const Hero = () => {
       <Wrapper>
         <Left>
           <MainHeader>
-            mind your
+            Find your
             <br /> Best cocktail
           </MainHeader>
           <MainHeaderMobile>Find Your Best Cocktail</MainHeaderMobile>

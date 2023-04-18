@@ -1,8 +1,5 @@
 import { Homepage } from "./pages/Homepage";
-import {
-  createBrowserRouter,
-  RouterProvider,
-} from "react-router-dom";
+import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import { SingleCocktail } from "./pages/SingleCocktail";
 import { Categories } from "./pages/Categories";
 import { SearchPage } from "./pages/SearchPage";
@@ -11,28 +8,28 @@ import { Alcoholic } from "./pages/Alcoholic";
 
 const router = createBrowserRouter([
   {
-    path: "/",
+    path: "/cocktails",
     element: <Homepage />,
   },
   {
-    path: "/:cocktailId",
+    path: "/cocktails/:cocktailId",
     element: <SingleCocktail />,
   },
   {
-    path: "/categories",
+    path: "/cocktails/categories",
     element: <Categories />,
   },
 
   {
-    path: "/search",
+    path: "/cocktails/search",
     element: <SearchPage />,
   },
   {
-    path: "/ingredients/:ingredientName",
+    path: "/cocktails/ingredients/:ingredientName",
     element: <SingleIngredient />,
   },
   {
-    path: "/alcohol",
+    path: "/cocktails/alcohol",
     element: <Alcoholic />,
   },
 ]);

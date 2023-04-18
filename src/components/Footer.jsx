@@ -59,23 +59,23 @@ export const Footer = () => {
       <Wrapper>
         <Left>
           {" "}
-          <Link to="/">
+          <Link to="/cocktails">
             <Logo src={LogoFile} />
           </Link>
         </Left>
         <Center>
           <Menu>
             <MenuItem>
-              <MenuLink to="/">Home</MenuLink>
+              <MenuLink to="/cocktails">Home</MenuLink>
             </MenuItem>
             <MenuItem>
-              <MenuLink to="/categories">Categories</MenuLink>
+              <MenuLink to="/cocktails/categories">Categories</MenuLink>
             </MenuItem>
             <MenuItem>
-              <MenuLink to="/alcohol">(Non)Alcoholic</MenuLink>
+              <MenuLink to="/cocktails/alcohol">(Non)Alcoholic</MenuLink>
             </MenuItem>
             <MenuItem>
-              <MenuLink to="/search">Search</MenuLink>
+              <MenuLink to="/cocktails/search">Search</MenuLink>
             </MenuItem>
           </Menu>
         </Center>

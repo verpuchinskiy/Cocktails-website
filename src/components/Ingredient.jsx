@@ -8,6 +8,11 @@ const Container = styled.div`
   margin: 132px auto 0;
   display: flex;
   justify-content: center;
+
+  @media (max-width: 830px) {
+    flex-direction: column;
+    gap: 20px;
+  }
 `;
 
 const Left = styled.div`

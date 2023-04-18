@@ -1,6 +1,7 @@
 import React from "react";
 import styled from "styled-components";
 import { orangeColor } from "../../variables";
+import Reverend from "../assets/reverend.jpeg";
 
 const Container = styled.div`
   max-width: 1920px;
@@ -73,7 +74,7 @@ const Author = styled.p`
 export const Quote = () => {
   return (
     <Container>
-      <Image src="src/assets/reverend.jpeg" />
+      <Image src={Reverend} />
       <Text>
         “Hey, buddy do you got the time?
         <br />
@@ -83,7 +84,11 @@ export const Quote = () => {
         <br />
         Guessin' that means it's martini time”.
       </Text>
-      <Author>The Reverend Horton Heat<br /><span style={{color: "#030202"}}>"It's Martini Time"</span></Author>
+      <Author>
+        The Reverend Horton Heat
+        <br />
+        <span style={{ color: "#030202" }}>"It's Martini Time"</span>
+      </Author>
     </Container>
   );
 };

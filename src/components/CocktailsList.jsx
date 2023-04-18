@@ -34,7 +34,7 @@ export const CocktailsList = ({ cocktailsArray }) => {
     <CocktailsListWrapper>
       {cocktailsArray.map((cocktail) => (
         <Link
-          to={`/${cocktail.idDrink}`}
+          to={`/cocktails/${cocktail.idDrink}`}
           style={{ textDecoration: "none" }}
           key={cocktail.idDrink}
         >

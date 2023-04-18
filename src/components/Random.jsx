@@ -131,19 +131,19 @@ export const Popular = () => {
       <Header>Random Cocktails</Header>
       <CocktailRow>
         <Left>
-          <CocktailLink to={`/${cocktail1.idDrink}`}>
+          <CocktailLink to={`/cocktails/${cocktail1.idDrink}`}>
             <LeftImg src={cocktail1.strDrinkThumb} />
             <CocktailName>{cocktail1.strDrink}</CocktailName>
           </CocktailLink>
         </Left>
         <Center>
-          <CocktailLink to={`/${cocktail2.idDrink}`}>
+          <CocktailLink to={`/cocktails/${cocktail2.idDrink}`}>
             <CenterImg src={cocktail2.strDrinkThumb} />
             <CocktailName>{cocktail2.strDrink}</CocktailName>
           </CocktailLink>
         </Center>
         <Right>
-          <CocktailLink to={`/${cocktail3.idDrink}`}>
+          <CocktailLink to={`/cocktails/${cocktail3.idDrink}`}>
             <RightImg src={cocktail3.strDrinkThumb} />
             <CocktailName>{cocktail3.strDrink}</CocktailName>
           </CocktailLink>
