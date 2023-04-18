@@ -117,7 +117,7 @@ Error generating stack: `+i.message+`
   }
 `,dl=D.li``,pl=D(kr)`
   text-decoration: none;
-`,Co=()=>S.jsx(JC,{children:S.jsxs(qC,{children:[S.jsxs(ZC,{children:[" ",S.jsx(kr,{to:"/",children:S.jsx(nE,{src:eg})})]}),S.jsx(eE,{children:S.jsxs(rE,{children:[S.jsx(dl,{children:S.jsx(pl,{to:"/cocktails",children:"Home"})}),S.jsx(dl,{children:S.jsx(pl,{to:"/cocktails/categories",children:"Categories"})}),S.jsx(dl,{children:S.jsx(pl,{to:"/cocktails/alcohol",children:"(Non)Alcoholic"})}),S.jsx(dl,{children:S.jsx(pl,{to:"/cocktails/search",children:"Search"})})]})}),S.jsxs(tE,{children:[S.jsx(Og,{}),S.jsx(Tg,{}),S.jsx(jg,{})]})]})}),Eo="Playfair Display, serif",oE="#030202",Ng="#FAFAFA",Ze="#FF6D16",iE="/cocktails/assets/cocktails-hero-e686f75d.jpg",lE="/cocktails/assets/bg-0ab7ef7a.jpg",aE=D.div`
+`,Co=()=>S.jsx(JC,{children:S.jsxs(qC,{children:[S.jsxs(ZC,{children:[" ",S.jsx(kr,{to:"/cocktails",children:S.jsx(nE,{src:eg})})]}),S.jsx(eE,{children:S.jsxs(rE,{children:[S.jsx(dl,{children:S.jsx(pl,{to:"/cocktails",children:"Home"})}),S.jsx(dl,{children:S.jsx(pl,{to:"/cocktails/categories",children:"Categories"})}),S.jsx(dl,{children:S.jsx(pl,{to:"/cocktails/alcohol",children:"(Non)Alcoholic"})}),S.jsx(dl,{children:S.jsx(pl,{to:"/cocktails/search",children:"Search"})})]})}),S.jsxs(tE,{children:[S.jsx(Og,{}),S.jsx(Tg,{}),S.jsx(jg,{})]})]})}),Eo="Playfair Display, serif",oE="#030202",Ng="#FAFAFA",Ze="#FF6D16",iE="/cocktails/assets/cocktails-hero-e686f75d.jpg",lE="/cocktails/assets/bg-0ab7ef7a.jpg",aE=D.div`
   margin-top: 112px;
   height: 70vh;
   background: linear-gradient(90deg, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.5)),
@@ -302,7 +302,7 @@ Error generating stack: `+i.message+`
   &:hover {
     text-shadow: 1px 1px 5px rgba(255, 255, 255, 1);
   }
-`,Ro=e=>S.jsx(gE,{children:S.jsxs(yE,{children:[S.jsx(kr,{to:"/",children:S.jsx(vE,{src:eg})}),S.jsxs(wE,{children:[S.jsx(hl,{children:S.jsx(ml,{to:"/cocktails",children:"Home"})}),S.jsx(hl,{children:S.jsx(ml,{to:"/cocktails/categories",children:"Categories"})}),S.jsx(hl,{children:S.jsx(ml,{to:"/cocktails/alcohol",children:"(Non)Alcoholic"})}),S.jsx(hl,{children:S.jsx(ml,{to:"/cocktails/search",children:"Search"})})]})]})}),xE="/cocktails/assets/reverend-051a1182.jpeg",SE=D.div`
+`,Ro=e=>S.jsx(gE,{children:S.jsxs(yE,{children:[S.jsx(kr,{to:"/cocktails",children:S.jsx(vE,{src:eg})}),S.jsxs(wE,{children:[S.jsx(hl,{children:S.jsx(ml,{to:"/cocktails",children:"Home"})}),S.jsx(hl,{children:S.jsx(ml,{to:"/cocktails/categories",children:"Categories"})}),S.jsx(hl,{children:S.jsx(ml,{to:"/cocktails/alcohol",children:"(Non)Alcoholic"})}),S.jsx(hl,{children:S.jsx(ml,{to:"/cocktails/search",children:"Search"})})]})]})}),xE="/cocktails/assets/reverend-051a1182.jpeg",SE=D.div`
   max-width: 1920px;
   text-align: center;
   margin: 40px auto 100px;
