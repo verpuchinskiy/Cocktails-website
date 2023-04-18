@@ -1,6 +1,7 @@
 import React from "react";
 import styled from "styled-components";
 import { headerFont, orangeColor } from "../../variables";
+import HeroImage from "../assets/cocktails-hero.jpg";
 
 const Container = styled.div`
   margin-top: 112px;
@@ -158,7 +159,7 @@ export const Hero = () => {
       <Wrapper>
         <Left>
           <MainHeader>
-            Find your
+            mind your
             <br /> Best cocktail
           </MainHeader>
           <MainHeaderMobile>Find Your Best Cocktail</MainHeaderMobile>
@@ -167,7 +168,7 @@ export const Hero = () => {
           </Tagline>
         </Left>
         <Right>
-          <HeroImg src="src/assets/cocktails-hero.jpg" />
+          <HeroImg src={HeroImage} />
         </Right>
       </Wrapper>
     </Container>
