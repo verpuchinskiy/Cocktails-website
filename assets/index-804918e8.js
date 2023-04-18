@@ -434,7 +434,7 @@ Error generating stack: `+i.message+`
   color: ${Ze};
 `,iu=D(kr)`
   text-decoration: none;
-`,Q3=()=>{const[e,t]=R.useState({}),[n,r]=R.useState({}),[o,i]=R.useState({}),l=async()=>{try{return(await tr.get("https://www.thecocktaildb.com/api/json/v1/1/random.php")).data.drinks[0]}catch(a){console.log(a)}};return R.useEffect(()=>{(async()=>{const s=await l(),u=await l(),c=await l();t(s),r(u),i(c)})()},[]),S.jsxs(z3,{children:[S.jsx(F3,{children:"Random Cocktails"}),S.jsxs(U3,{children:[S.jsx(B3,{children:S.jsxs(iu,{to:`/${e.idDrink}`,children:[S.jsx(H3,{src:e.strDrinkThumb}),S.jsx(ou,{children:e.strDrink})]})}),S.jsx(W3,{children:S.jsxs(iu,{to:`/${n.idDrink}`,children:[S.jsx(V3,{src:n.strDrinkThumb}),S.jsx(ou,{children:n.strDrink})]})}),S.jsx(K3,{children:S.jsxs(iu,{to:`/${o.idDrink}`,children:[S.jsx(G3,{src:o.strDrinkThumb}),S.jsx(ou,{children:o.strDrink})]})})]})]})},Y3=()=>S.jsxs(S.Fragment,{children:[S.jsx(Ro,{}),S.jsx(mE,{}),S.jsx(RE,{}),S.jsx(Q3,{}),S.jsx(Co,{})]}),X3=D.div`
+`,Q3=()=>{const[e,t]=R.useState({}),[n,r]=R.useState({}),[o,i]=R.useState({}),l=async()=>{try{return(await tr.get("https://www.thecocktaildb.com/api/json/v1/1/random.php")).data.drinks[0]}catch(a){console.log(a)}};return R.useEffect(()=>{(async()=>{const s=await l(),u=await l(),c=await l();t(s),r(u),i(c)})()},[]),S.jsxs(z3,{children:[S.jsx(F3,{children:"Random Cocktails"}),S.jsxs(U3,{children:[S.jsx(B3,{children:S.jsxs(iu,{to:`/cocktails/${e.idDrink}`,children:[S.jsx(H3,{src:e.strDrinkThumb}),S.jsx(ou,{children:e.strDrink})]})}),S.jsx(W3,{children:S.jsxs(iu,{to:`/cocktails/${n.idDrink}`,children:[S.jsx(V3,{src:n.strDrinkThumb}),S.jsx(ou,{children:n.strDrink})]})}),S.jsx(K3,{children:S.jsxs(iu,{to:`/cocktails/${o.idDrink}`,children:[S.jsx(G3,{src:o.strDrinkThumb}),S.jsx(ou,{children:o.strDrink})]})})]})]})},Y3=()=>S.jsxs(S.Fragment,{children:[S.jsx(Ro,{}),S.jsx(mE,{}),S.jsx(RE,{}),S.jsx(Q3,{}),S.jsx(Co,{})]}),X3=D.div`
   max-width: 1920px;
   padding: 0 40px;
   margin: 132px auto 0;
@@ -465,7 +465,7 @@ Error generating stack: `+i.message+`
   border: 1px solid ${Ng};
   padding: 10px 14px;
   border-radius: 20px;
-`,o5=D.div``,i5=({name:e,picture:t,type:n,instruction:r,ingredients:o})=>S.jsxs(X3,{children:[S.jsx(J3,{children:S.jsx(Z3,{src:t})}),S.jsxs(q3,{children:[S.jsx(e5,{children:e}),S.jsxs(t5,{children:[S.jsx("span",{style:{color:"gray"},children:"Cocktail type: "}),n]}),S.jsx(n5,{children:o.map(i=>S.jsx(kr,{to:`/ingredients/${i.name}`,style:{textDecoration:"none"},children:S.jsx(r5,{children:i.amount},i.name)},i.name))}),S.jsx(o5,{children:r})]})]}),l5=D.div`
+`,o5=D.div``,i5=({name:e,picture:t,type:n,instruction:r,ingredients:o})=>S.jsxs(X3,{children:[S.jsx(J3,{children:S.jsx(Z3,{src:t})}),S.jsxs(q3,{children:[S.jsx(e5,{children:e}),S.jsxs(t5,{children:[S.jsx("span",{style:{color:"gray"},children:"Cocktail type: "}),n]}),S.jsx(n5,{children:o.map(i=>S.jsx(kr,{to:`/cocktails/ingredients/${i.name}`,style:{textDecoration:"none"},children:S.jsx(r5,{children:i.amount},i.name)},i.name))}),S.jsx(o5,{children:r})]})]}),l5=D.div`
   display: flex;
   flex-direction: column;
   min-height: 100vh;
@@ -490,7 +490,7 @@ Error generating stack: `+i.message+`
   font-weight: 400;
   width: 200px;
   text-align: center;
-`,Yf=({cocktailsArray:e})=>S.jsx(u5,{children:e.map(t=>S.jsx(kr,{to:`/${t.idDrink}`,style:{textDecoration:"none"},children:S.jsxs(c5,{children:[S.jsx(f5,{src:t.strDrinkThumb}),S.jsx(d5,{children:t.strDrink})]},t.idDrink)},t.idDrink))}),p5=D.div`
+`,Yf=({cocktailsArray:e})=>S.jsx(u5,{children:e.map(t=>S.jsx(kr,{to:`/cocktails/${t.idDrink}`,style:{textDecoration:"none"},children:S.jsxs(c5,{children:[S.jsx(f5,{src:t.strDrinkThumb}),S.jsx(d5,{children:t.strDrink})]},t.idDrink)},t.idDrink))}),p5=D.div`
   max-width: 1920px;
   padding: 0 40px;
   margin: 132px auto 0;
